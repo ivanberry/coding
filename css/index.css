@@ -7,10 +7,11 @@ html,body	{
 	background-color:	#2466F2;
 }
 nav	{
-	width:	960px;
+	width:	1280px;
 	height:	65px;
 	margin:	0 auto;
 	padding: 10px;
+	background:	#2466F2;
 }
 nav h1	{
 	font-size:	1.8em;
@@ -28,13 +29,27 @@ table	{
 	font-size:	0.8em;
 }
 #checkbox0	{
-	display: inline;
-	border:	1px dashed red;
-	margin-top:	0;
-	padding:	0;
-	margin-bottom:	0;
+	margin-bottom: -3px;
 }
 a	{
 	text-decoration:	none;
+	color:	black;
 }
-
+.main_wrap	{
+	width:	1280px;
+	margin: 0 auto;
+	border:	1px solid blue;
+}
+.main-left	{
+	width:	630px;
+	margin:0;
+	padding:	0;
+	float:	left;
+}
+.main-right	{
+	width:	600px;
+	float:	right;
+}
+.clearfix	{
+	clear:	both;
+}
