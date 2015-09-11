@@ -4,7 +4,7 @@ html,body	{
 }
 .nav_wrap	{
 	width:	100%;
-	background-color:	#19B0E3;
+	background-color:	#2466F2;
 }
 nav	{
 	width:	960px;
@@ -20,7 +20,9 @@ nav h1	{
 	float:	left;
 }
 span	{
-	font-size:	
+	font-size: 2em;
+} 
+
 table	{
 	float:	right;
 	font-size:	0.8em;
