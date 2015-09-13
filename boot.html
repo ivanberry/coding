@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head lang="en>
+	<meta charset="UTF-8">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<title>Bootstrap Practice</title>
+	<style>
+	.col-md-4,.col-md-6,.col-md-12,.col-md-1,.col-md-2{
+	border:	1px dashed blue;
+	}
+	p	{
+	border:	1px solid black;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<h2><em>1.Grid system<em></h2>
+	<div class="row">
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1">.col-md-1</div>
+	</div>
+	<div class="row">
+	<div class="col-md-2">.col-md-2</div>
+	<div class="col-md-2">.col-md-2</div>
+	</div>
+	<div class="row">
+	<div class="col-md-4">.col-md-4</div>
+	<div class="col-md-4">.col-md-4</div>
+	<div class="col-md-4">.col-md-4</div>
+	</div>
+	<div class="row">
+	<div class="col-md-6">.col-md-6</div>
+	<div class="col-md-6">.col-md-6</div>	
+	</div>
+	<h2><em>2.Offsetting columns</em></h2>
+	<div class="row">
+	<div class="col-md-1">.col-md-1</div>
+	<div class="col-md-1 col-md-offset-1">.col-md-o-1</div>
+	<div class="col-md-1 col-md-offset-3">.col-md-o-3</div>
+	</div>
+	<div class="row">
+	<div class="col-md-1">.col-md-1</div>
+	</div>
+	<div class="row">
+	<div class="col-md-1 col-md-offset-1">.col-md-o-1</div>
+	</div>
+	<div class="row">
+	<div class="col-md-1 col-md-offset-3">.col-md-o-3</div>
+	</div>
+	<h2><em>3.Nesting columns?</em></h2>
+	<div class="row">
+	<div class="col-md-12">.col-md-4</div>
+		<div class="row">
+		<div class="col-md-1">nesting</div>
+		</div>
+	<h1>4.Bootstrap Heading</h1>
+	<h1>Bootstrap heading</h1>
+	<h2>Bootstrap heading</h2>
+	<h3>Bootstrap heading</h3>
+	<h4>Bootstrap heading</h4>
+	<h5>Bootstrap heading</h5>
+	<h6>Bootstrap heading</h6>
+	<h1>5.Body copy</h1>
+	<div class="p_wrap">
+	<p>
+	Bootstap's default font-size is 14px,with a line-height of 1.428.This is applied to the body, a p,in addition,p get a margin-bottom of their computed line-height (10px by default).
+
+	</p>
+	<h1>6.Lead paragraph</h1>
+	<p class="lead">
+	Lead paragraph means standing out of normal.
+	</p>
+	<h1>7.Inline elements</h1>
+	<p>
+	a.Maked text<br>
+	you can use the make tag to<mark> highlight<mark> text<br>	
+	b.Deleted text<br>
+	<del>
+	This line of text is meant to be deleted text.<br>
+	</del>
+	c.Strikethrough text<br>
+	<s>This line of text is meant to be strikethrough text</s><br>
+	d.Inserted text<br>
+	<ins>This line of text is meant to be inserted text</ins><br>
+	e.Underline text<br>
+	<u>This is of text underlinde</u><br>
+	f.Small text<br>
+	<small>This line is about small text</small><br>
+	g.Bold text<br>
+	just like the html tags <strong>BOLD TEXT<em>Italics</em></strong><br>
+	</p>
+
+	<h1>8.Alignment classes</h1>
+	<p class="text-left">left fdjkfjklsajfkljdskljfklsdjfkljsdkfjksdjfkljsadklfjskldjfklsdjlkfjskldfjkljtextjdfjfkefajfjaljwoureosfaklsjflkdsjfskladjfklsajdfuefjkldjfkldjfjalkfjkldjfklsajfkldjlkafj;lajfdajjweoutreufdjflksdjf</p>
+	<p class="text-right">right text</p>
+	<p class="text-center">center text</p>
+	<p class="text-justify">justifiedjfdkjfkjdkljfklsajdflkjsadklfjlksadjfkljsadkfjklsajdfkljsdklfjklsadjfksjfkdjkeudjfdjkjekjksjdfioeifsdjfsjakljfkldjflkdjklfdklfjdlkfjklsdjfkdsjfkljdklfjdkljfkldjklfjklsdjfklsjlkdfjlkdsjfklsajfklsdfklghdhdureidjfwjowuajfdkljflskadfjsdjd</p>
+	<p class="text-nowrap">No wrap text</p>
+	
+	
+	<h1>9.Lists</h1>
+	<ul>
+	<li>fjdjfdskj</li>
+	<li>jjkjkekj</li>
+		<ul>
+		<li>fkewpjg</li>
+		<li>we[gufje</lo>
+		</ul>
+	<li>eeofjflal</li>
+	<li>wwpf</li>
+	</ul>
+	
+	<h1>10.Description</h1>
+	<dl>
+	<dt>Example</dt>
+	<dd> A description list is perfect for defining terms.</dd>
+	<dt>Elusimed</dt>
+	<dd>I dont know what's the word mean</dd>
+	</dl>
+
+	<dl class="dl-horizontal">
+	<dt>Description</dt>
+	<dd>The description if perfect for defining terms</dd>
+	<dt>Name about your game</dt>
+	<dd>I dont even know </dd>
+	</dl>	
+
+	<h1>11.code</h1>
+	a.warp inline snippets code with code tag.
+	b.kbd
+	<p>
+	To switch directions,type<kbd>cd</kbd> followed by the name of the directory.<br>
+	To edit setting,press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+	</p>
+
+	<h1>12.Tables</h1>
+	<h2>Basic Tables</h2>
+	<table class="table">
+	<option>Basic tables</option>
+	<tr>
+	<td>#</td>
+	<td>First Name</td>
+	<td>Last Name</td>
+	<td>Username</td>
+	</td>
+	<tr>
+	<td>1</td>
+	<td>Mark</td>
+	<td>Otto</td>
+	<td>@mdo</td>
+	</tr>
+	<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	</tr>
+	
+	</table>
+
+	<h2>13.Forms</h2>
+	<p>
+	All textual input textarea and select elements with .form-control are set to width: 100%;Wrap labels and controls in.form-group for optimum spacing.
+	</p>
+	<h3>Example</h3>
+	<form>
+		<div class="form-group">
+		<label for="email">Email address</label><br>
+		<input type="text" value="email" placeholder="Email"><br>
+		<label for="psw">Password</label><br>
+		<input type="password" value="psw"placeholder="Enter your password"><br>
+		<label for="file_input">File input</label><br>
+		<input type="file" value="file_input">No file selected<br>
+		<h4>Example block-level help here.</h4>
+		<input type="checkbox" value="check">Check me out<br>
+		<input type="submit" value="submit">
+	</form>
+	</div>
+	</div>
