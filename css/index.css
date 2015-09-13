@@ -4,14 +4,14 @@ html,body	{
 }
 .nav_wrap	{
 	width:	100%;
-	background-color:	#2466F2;
+	background-color:	#46577E;
 }
 nav	{
 	width:	1280px;
 	height:	65px;
 	margin:	0 auto;
 	padding: 10px;
-	background:	#2466F2;
+	background:	#46577E;
 }
 nav h1	{
 	font-size:	1.8em;
@@ -37,9 +37,9 @@ a	{
 	color:	black;
 }
 .main_wrap	{
-	width:	1280px;
+	width:	1366px;
 	margin: 0 auto;
-	border:	1px solid blue;
+	margin-top: 40px;
 }
 .main-left	{
 	width:	630px;
@@ -48,9 +48,34 @@ a	{
 	float:	left;
 }
 .main-right	{
+	font-size:	1.5em;
 	width:	600px;
 	float:	right;
 }
 .clearfix	{
 	clear:	both;
+}
+h6			{
+	margin: 0;
+	padding: 10px;
+	font-size:	.5em;
+	padding-left: 0;
+	color:	blue;
+}
+
+#service	{
+	margin-top: 0;
+	font-size:	0.5em;
+}
+
+input[type="submit"]	{
+	padding: 5px 30px;
+	background:	#2AAD00;
+	color:	white;
+
+}
+input[type="text"]	{
+	padding: 0 10px;
+	height:	25px;
+	margin-bottom:	8px;
 }
